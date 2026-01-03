@@ -10,13 +10,13 @@
 import os
 
 class Config:
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-    USER_ID = int(os.getenv("USER_ID", ""))
-    API_ID = int(os.getenv("API_ID", ""))
-    API_HASH = os.getenv("API_HASH", "")
-    DB_NAME = os.getenv("DB_NAME", "")
-    DB_URL = os.getenv("DB_URL", "")
-    CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", ""))
+    BOT_TOKEN = "8314065055:AAGjTymsm-p8dK4432AEltF4IA751jgwly0"
+    USER_ID = 8226767954
+    API_ID = 23537462
+    API_HASH = "c9599a5aa61ee8ca4f5e778d20c61f24"
+    DB_NAME = "cluster0"
+    DB_URL = "mongodb+srv://autorename:fbMbsVFICHccoTup@cluster0.uygy8qe.mongodb.net/"
+    CHECK_INTERVAL = 300
     MAX_CHAPTERS_PER_CHECK = int(os.getenv("MAX_CHAPTERS", "5"))
     DOWNLOAD_DIR = "downloads"
     STATE_FILE = "bot_state.json"
